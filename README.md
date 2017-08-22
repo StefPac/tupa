@@ -24,6 +24,11 @@ Alternatively, install the latest code from GitHub (may be unstable):
     cd tupa
     python setup.py install
 
+The parser requires the English model for spaCy to be available. To install it
+run:
+
+    python -m spacy download en
+
 ### Train the parser
 
 Having a directory with UCCA passage files
